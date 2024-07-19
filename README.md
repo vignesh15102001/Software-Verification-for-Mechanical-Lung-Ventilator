@@ -4,11 +4,8 @@
 This project models a mechanical lung ventilator system and verifies its correctness using Dafny. The ventilator helps patients breathe by providing mechanical ventilation and has various states and safety mechanisms to ensure reliable operation.
 
 ## Files
-- `VentilatorControlSystem.dfy`: Defines the ventilator system with states and methods.
+- `Ventilator.dfy`: Defines the ventilator system with states and methods.
 - `Verification.dfy`: Contains verification methods to ensure the ventilator system behaves correctly.
-
-## Repository Link
-[Software-Verification-for-Mechanical-Lung-Ventilator](https://github.com/vignesh15102001/Software-Verification-for-Mechanical-Lung-Ventilator)
 
 ## Prerequisites
 - Dafny: Install from the [Dafny GitHub repository](https://github.com/dafny-lang/dafny)
@@ -28,7 +25,7 @@ This project models a mechanical lung ventilator system and verifies its correct
    - Navigate to the directory containing the Dafny files.
    - Run the following command to verify the program:
      ```sh
-     dafny verify --solver-path "C:\Program Files\Z3\z3-4.13.0-x64-win\bin\z3.exe" VentilatorControlSystem.dfy Verification.dfy
+     dafny verify --solver-path "C:\Program Files\Z3\z3-4.13.0-x64-win\bin\z3.exe" Ventilator.dfy Verification.dfy
      ```
 
 ## Execution Order
@@ -60,4 +57,4 @@ This project models a mechanical lung ventilator system and verifies its correct
 
 **Commands**:
 ```sh
-dafny verify --solver-path "C:\Program Files\Z3\z3-4.13.0-x64-win\bin\z3.exe" VentilatorControlSystem.dfy Verification.dfy
+dafny verify --solver-path "C:\Program Files\Z3\z3-4.13.0-x64-win\bin\z3.exe" Ventilator.dfy Verification.dfy
