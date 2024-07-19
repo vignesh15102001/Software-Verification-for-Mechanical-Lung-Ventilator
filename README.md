@@ -40,11 +40,6 @@ This project models a mechanical lung ventilator system and verifies its correct
 - Refer to the Dafny documentation for any troubleshooting tips.
 
 ## Appendix
-
-**Repository Link**: You can run the code in the Dafny CLI or any supported IDE like Visual Studio Code.
-
-[Download the Dafny files here](https://github.com/vignesh15102001/Software-Verification-for-Mechanical-Lung-Ventilator)
-
 **Instructions**:
 1. Ensure Dafny and Z3 are installed. (Dafny: [GitHub](https://github.com/dafny-lang/dafny), Z3: [GitHub](https://github.com/Z3Prover/z3/releases))
 2. Set the Z3 executable path if necessary.
